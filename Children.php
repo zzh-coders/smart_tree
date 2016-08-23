@@ -86,6 +86,6 @@ class NodeIDComparator {
             return $a_id < $b_id ? -1 : ($a_id == $b_id ? 0 : 1);
         }
 
-        return ($a_w > $b_w) ? +1 : -1;
+        return ($a_w > $b_w) ? -1 : +1;
     }
 }
